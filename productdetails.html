@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek-Detalle</title>
+    <link rel="icon" href="assets/img/Vector.svg" type="image/icon type">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/seeproducts/seeproducts.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/search_bar.css">
+</head>
+<body>
+    <header class="theHead">
+        <div class="theLogo">
+            <div class="logo__section">
+                <a class="logo__section" href="index.html">
+                    <img src="assets/img/Vector.svg" alt="AluraGeek_logo" class="header__logo__main">
+                    <img src="assets/img/AluraGeek-1.svg" alt="AluraGeek_logo" class="header__logo">
+                    <img src="assets/img/AluraGeek.svg" alt="AluraGeek_logo" class="header__logo">
+                </a>
+            </div>
+            <div class="header__btns">
+                <input type="text" class="search__bar" placeholder="¿Qué deseas buscar?">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="product__section">
+            <div class="product__container">
+                <div class="product__information__details">
+                    <img src="assets/img/prod1.png" alt="product image" class="product__img__details__see">
+                    <div class="product__img__details">
+                        <h2 class="product__name__see">Star Wars Coffe Cup</h2>
+                        <p class="product__price__see">$ 60.00</p>
+                        <p href="#" class="product__details__see">Descripción del producto</p>
+                    </div>
+                </div>
+                <div class="section__header">
+                    <h2 class="product__title">Productos similares</h2>
+                </div>
+                <div class="product__cards" data-productsContainer>
+                    
+                    <div class="product">
+                        <img src="assets/img/prod1.png" alt="product image" class="product__img">
+                        <h2 class="product__name">Star Wars Coffe Cup</h2>
+                        <p class="product__price">$ 60.00</p>
+                        <a href="#" class="product__id">Ver producto</a>
+                    </div>
+                    <div class="product">
+                        <img src="assets/img/prod2.png" alt="product image" class="product__img">
+                        <h2 class="product__name">Pizaa Papeles SW</h2>
+                        <p class="product__price">$ 60.00</p>
+                        <a href="#" class="product__id">Ver producto</a>
+
+                    </div>
+                    <div class="product">
+                        <img src="assets/img/prod3.png" alt="product image" class="product__img">
+                        <h2 class="product__name">Force B with you</h2>
+                        <p class="product__price">$ 60.00</p>
+                        <a href="#" class="product__id">Ver producto</a>
+
+                    </div>
+                    <div class="product">
+                        <img src="assets/img/prod4.png" alt="product image" class="product__img">
+                        <h2 class="product__name">Star Wars Assassin</h2>
+                        <p class="product__price">$ 60.00</p>
+                        <a href="#" class="product__id">Ver producto</a>
+
+                    </div>
+                    <div class="product last">
+                        <img src="assets/img/prod5.png" alt="product image" class="product__img">
+                        <h2 class="product__name">Green Head</h2>
+                        <p class="product__price">$ 60.00</p>
+                        <a href="#" class="product__id">Ver producto</a>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="footer__form__section">
+            <div class="footer__container__form">
+                <div class="footer__logo__form">
+                    <img src="assets/img/Vector.svg" alt="AluraGeek_logo" class="footer__header__logo__main">
+                    <img src="assets/img/AluraGeek-1.svg" alt="AluraGeek_logo" class="footer__header__logo">
+                    <img src="assets/img/AluraGeek.svg" alt="AluraGeek_logo" class="footer__header__logo">
+                </div>
+                <ul class="footer__form__links">
+                    <li>Quienes somos</li>
+                    <li>Política de privacidad</li>
+                    <li>Programa de fidelidad</li>
+                    <li>Nuestras Tiendas</li>
+                    <li>Quiero ser franquiciado</li>
+                    <li>Anúncie aquí</li>
+                </ul>
+            </div>
+             <form action="./registro_concluido.html" class="footer__formulario">
+                <fieldset>
+                    <legend class="footer__form__label">Hable con nosotros</legend>
+                    <div class="footer__input-container">
+                        <input name="name" id="name" class="footer__input" type="text" placeholder="Nombre"   minlegth="10" maxlength="40" required>
+                        <label class="footer__input-label" for="name">Nombre</label>
+                        <span class="footer__input-message-error">Este campo no es valido</span>
+                    </div>
+                    <div class="footer__input-container">
+                        <input name="message" id="message" class="footer__input" type="text" placeholder="Escribe tu mensaje" required data-tipo="email" minlegth="10" maxlength="120">
+                        <label class="footer__input-label" for="email">Email</label>
+                        <span class="footer__input-message-error">Este campo no es valido</span>
+                    </div>
+                </fieldset>
+                <button class="footer__button">Enviar mensaje</a>
+            </form>
+        </section>
+    </main>
+    <footer class="thefooter">
+        <p>&copy; <strong>-  2022 -  Walter Gomez - FullStack Developer</strong></p>
+        <div class="footer_icons">
+            <a href="#" target="_blank"class="social__links"><img src="assets/img/linkIn_icon.png" alt="" class="social_img"></a>
+            <a href="#" target="_blank" class="social__links"><img src="assets/img/github.png" alt="" class="social_img"></a>           
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./js/searchProducts.js"></script>
+    <script src="./js/seeproducts.js" type="module"></script>
+</body>
+</html>

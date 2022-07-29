@@ -1,0 +1,265 @@
+.addProduct__section{
+    display: flex;
+    justify-content: center;
+    padding: 4rem 0rem;
+    background: #F5F5F5;
+}
+.field__addproducts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40rem;
+}
+.formulario-addproducts{
+    width: 75%;
+}
+.form__section{
+    padding: 2rem 10rem;
+    background: #EAF2FD;
+    display: flex;
+    justify-content: space-between;
+}
+.formulario{
+    line-height: 50px;
+    font-weight: 500;
+    font-size: 16px;
+    width: 40rem;
+}
+.form__links li{
+    line-height: 50px;
+    font-weight: 500;
+    font-size: 16px;
+}
+.logo__form{
+    margin-top: 1.5rem;
+    align-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.input-message-error{
+    display: none;
+}
+.button{
+    background: #2A7AE4;
+    border: none;
+    color: #F5F5F5;
+    text-align: center;
+    padding: 1.5rem 1.5rem;
+}
+.container__form{ display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+.input-container{
+   display: flex;
+   flex-direction: column;
+
+   background: white;
+   padding: .8rem 2rem;
+   margin-bottom: 1rem;
+   border: #C8C8C8 solid 1px;
+   border-radius:20px;
+   width: 80vw;
+}
+.form__label{
+    color: #464646;
+    font-weight: 700;
+    font-size: 16px;
+}
+.formulario-addproducts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 85vw;
+    margin: 0;
+}
+.add__form__label{
+    color:#464646;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: .8rem;
+}
+.file__field{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    height: 6vh;
+}
+#url{
+    width: 90%;
+}
+.uploader__icon {
+    background: url(../../img/uploadFile.png);
+    background-size: 100rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 20rem;
+}
+.input-label{
+    display: none;
+    background:white;
+}
+.input__addproduct{
+    height: 5vh;
+    border: none;
+    padding: .2rem 1rem;
+    width: 98%;
+
+}
+.label__addproduct{
+    position: relative;
+    top:20px;
+    left:10px;
+    color: #464646;
+    transition: .5s;
+    
+}
+.input__addproduct::placeholder{
+    color:#464646;
+    font-size: 0.8rem;
+    transition: .2s;
+    opacity: .8;
+    
+}
+.input__addproduct:focus{
+    outline: 2;
+    outline-color: #2A7AE4;
+  
+}
+.input__addproduct:focus::placeholder{
+    color: transparent;
+}
+.thelabel{
+    position: relative;
+    top:5px;
+    left:10px;
+    color:#2A7AE4;
+    outline: 2;
+    background:white;
+    width: 10rem;
+    padding: 0 1rem;
+    border-radius: 25px;
+    font-weight: 700;
+    font-size: .8rem;
+}
+.button__login{
+    border-radius: 40px;
+    font-weight: 600;
+    color:white;
+    background: #2A7AE4;
+    padding: 1rem;
+    border: none;
+    width: 100%;
+}
+.theSpanMessage{
+    display: unset;
+    color: red;
+    padding: .2rem 1rem;  
+    font-size: .7rem;
+}
+
+
+
+
+@media only screen and (max-width:1000px){
+    .formulario-addproducts{
+        width: 90vw;
+    }
+    .field__addproducts{
+        width: 100%;
+    }
+    .form__section{
+        padding: 1rem 1rem;
+        justify-content: space-around;
+    }
+
+    .container__form{
+        flex-direction: column;
+        width: 30%;
+    }
+    .form__links li{
+        line-height: 45px;
+    
+    }
+
+    .logo__form{
+        margin-top: 1rem;
+    }
+
+    .button{
+
+        padding: .8rem 1.5rem;
+    }
+
+    .formulario{
+        line-height: 40px;
+        width: 50%;
+    
+    }
+
+    .input{
+        height: 1.5rem;
+        margin-bottom: .8rem;
+        
+    }
+    
+    #message{
+        height: 3rem;
+    }
+
+    .logo__form{
+        display: flex;
+        margin: 1rem 0rem;
+        padding:  0 .5rem;
+ 
+    }
+
+    
+    .input-description{
+        height: 5rem;
+    
+    }
+    .button__login{
+        width: 100%;
+    }
+
+
+}
+ 
+@media only screen and (max-width: 780px){
+    .form__section{
+        flex-direction: column;
+    }
+    .container__form{
+        text-align: center;
+        align-content: center;
+        width: 90vw;
+        margin: 0;
+        padding: 0;
+    }
+
+ 
+    .logo__form{
+        
+        justify-content: center;
+    }
+
+    .formulario{
+        line-height: 40px;
+        width: 95%;
+        padding: 1rem;
+        justify-self: center;
+    
+    }
+
+    .input-description{
+        height: 5rem;
+    }
+    .button__login{
+        width: 100%;
+    }
+
+
+}
+
